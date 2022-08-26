@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+:root {
+    --font-header: 'Cormorant Garamond', serif;
+    --font-paragraph: 'Cairo', sans-serif;
+    --cor1: #C7A22A;
+    --cor2: #03137a;
+    --cor3: #fce084;
+    --cor4: #FACC34;
+}
+
+
+@media screen and (min-width: 768px){
+    
+    header{
+        width: 100vw;
+        height: 175px;
+    }
+    
+    
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border-radius: 3px;
+        margin:4px;
+        background-color: #00479E
+    }
+
+
+    
+
+    main{
+        width: 768px;
+    }
+}
+    
